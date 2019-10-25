@@ -1,0 +1,23 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://toponimus.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://toponimus.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.toponimus.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.toponimus.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://toponimus.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://toponimus.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.toponimus.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.toponimus.ru$      [NC]
+
+RewriteCond %{HTTP_REFERER} !^http://letsrecycle.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://letsrecycle.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.letsrecycle.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.letsrecycle.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://letsrecycle.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://letsrecycle.ru$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.letsrecycle.ru/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.letsrecycle.ru$      [NC]
+
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
