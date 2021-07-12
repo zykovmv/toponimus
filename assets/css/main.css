@@ -482,9 +482,9 @@ input, select, textarea {
 
 	body, input, select {
 		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
-		font-size: 18pt;
-		line-height: 1.75em;
+		font-weight: 100;
+		font-size: 12pt;
+		line-height: 1em;
 		color: #4b4139;
 		letter-spacing: 0.025em;
 	}
@@ -492,7 +492,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			body, input, select {
-				font-size: 17pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -500,7 +500,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select {
-				font-size: 15pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -508,7 +508,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -516,7 +516,7 @@ input, select, textarea {
 		@media screen and (max-width: 1000px) {
 
 			body, input, select {
-				font-size: 13pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -524,14 +524,14 @@ input, select, textarea {
 		@media screen and (max-width: 660px) {
 
 			body, input, select {
-				font-size: 12pt;
+				font-size: 9pt;
 				line-height: 1.5em;
 			}
 
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 100;
 		color: inherit;
 		letter-spacing: -0.0325em;
 	}
@@ -542,8 +542,8 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
-		line-height: 1.25em;
+		font-size: 1.25em;
+		line-height: 1em;
 		letter-spacing: -0.05em;
 	}
 
@@ -732,7 +732,7 @@ input, select, textarea {
 		color: #39454b;
 		display: block;
 		width: 100%;
-		padding: 0.65em 0.75em;
+		padding: 0.3em 0.3em;
 		background: none;
 		border: solid 2px rgb(211, 211, 211);
 		color: inherit;
@@ -1797,20 +1797,4 @@ footer {
 	#contact_link a:hover {
 				color: #ffc599;
 			}
-	
-	/* Сообщение об ошибке в поле ввода */
-	.input_error, .input_error:focus {
-		outline: none;
-		border: 1px solid #f33;
-		box-shadow: 0 0 1px 1px #f33;
-		}
-	
-	#notice_1, #notice_2  {
-		position: inherit;
-		left: 22px;
-		margin-bottom: 10px;
-		top: 5px;
-		color: #f33;
-		display: none;
-		}
 
